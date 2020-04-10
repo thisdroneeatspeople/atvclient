@@ -1,15 +1,5 @@
 #!/bin/sh
 
-### BEGIN INIT INFO
-# Provides:          atvclient
-# Required-Start:
-# Required-Stop:
-# Default-Start:     1 2 3 4 5
-# Default-Stop:      0 6
-# Short-Description: Start daemon at boot time
-# Description:       Enable Apple TV Infrared Port
-### END INIT INFO
-
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 NAME=atvclient
 SCRIPTNAME=/etc/init.d/$NAME
